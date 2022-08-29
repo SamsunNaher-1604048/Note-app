@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.note{
+ background-color:#e6b3ff;
+ border-radius: 10px;
+ padding: 1rem;
+ min-height: 170px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ white-space: pre-wrap;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notelist{
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit,300px);
+}
+
+.container{
+  max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	min-height: 100vh;
+}
+
+.new{
+  background-color:#ccebff ;
+}
+
+textarea{
+  border: none;
+  resize: none;
+  background-color:#ccebff ;
+}
+textarea:focus{
+  outline: none;
+}
+
+.save{
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+
+.save:hover{
+  background-color: #ccebff;
+}
+.delete{
+  cursor: pointer;
+}
+
+.scarch{
+  display: flex;
+  align-items: center;
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding:5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.scarch input{
+  border:none;
+  background-color:gainsboro ;
+}
+
+.scarch input:focus{
+  outline: none;
+}
